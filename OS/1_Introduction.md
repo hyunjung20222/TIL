@@ -126,5 +126,3 @@
 * Time sharing 은 CPU 의 시간을 분할해 나눠 쓴다는 의미 강조
 * **Multiprocessor**
   * 하나의 컴퓨터에 CPU (processor) 가 여러 개 붙어있음을 의미
-
-#### 

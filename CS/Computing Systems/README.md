@@ -22,9 +22,10 @@
 
 ---
 
-### Computer System Structure
+### Windows System Programming
 
-**CSA 컴퓨터 시스템 구조** 유투브 강의
+**뇌를 자극하는 윈도우즈 시스템 프로그래밍**
 
-* 중급자를 위한 컴퓨터 시스템 구조 강의
+* 기본적인 컴퓨팅 시스템 강의
+* 인프런
 

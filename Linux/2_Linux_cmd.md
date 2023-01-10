@@ -203,3 +203,24 @@ which 명령어
   #        /usr/bin/cp
   ```
 
+**where is 와의 차이점**
+
+```bash
+# 찾고자 하는 명령어나 파일 위치 찾는 것
+whereis ls
+```
+
+![whereis](C:/daou/01.linux/doc/assets/whereis.png)
+
+* `which` 는 경로에 대한 것도 알려 주지만 `alias` 도 같이 출력
+
+  * `alias` 는 축약 표현으로 우편에 있는 것이 실제 의미
+
+    ```bash
+    # cp 는 기본적으로 -i 옵션이 들어가 있으므로, alias cp 의 우편이 실제 cp 의 의미
+    which cp
+    
+    # alias cp='cp -i'
+    #        /usr/bin/cp
+    ```
+

@@ -35,7 +35,7 @@ type User<T> = {
   }
   ```
 
-  <img src="./assets/type_aliases_seho.png" alt="타입 별칭 세호" style="zoom:50%;" />
+  <img src="./05_Type_Aliases.assets/type_aliases_seho.png" alt="타입 별칭 세호" style="zoom:50%;" />
 
   * Person 이 type 이라는 문구가 프리뷰로 표시 된다
     * interface 의 경우, `Interface Person` 이라고 프리뷰에 표시 된다

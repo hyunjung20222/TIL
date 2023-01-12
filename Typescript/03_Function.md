@@ -72,7 +72,7 @@ function fetchTodoItems(): object[] {
 
   * 이 경우, `done` 에 에러가 생성 된다
 
-    ![함수 에러](./assets/function_error.png)
+    ![함수 에러](./03_Function.assets/function_error.png)
 
     * todo라는 오브젝트에 done 속성이 없어서 뜨는 에러
 

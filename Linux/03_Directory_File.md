@@ -51,13 +51,13 @@
 
   * 디스크 장치에 파일을 저장할 때 실제 데이터는 특별한 구분 없이 디스크에 저장하며 디스크의 어느 한 곳에 차례대로 쌓여있는 부분을 데이터 블록이라 한다
 
-    ![블록](C:/daou/01.linux/doc/assets/datablock.png)
+    ![블록](./03_Directory_File.assets/datablock.png)
 
 ---
 
 ## 종류
 
-![파일](C:/daou/01.linux/doc/assets/directory.png)
+![파일](./03_Directory_File.assets/directory.png)
 
 **일반 파일**
 
@@ -89,7 +89,7 @@
 
   * 파일에는 하드 링크와 심볼릭 링크가 존재하며 링크 파일을 생성하기 위해서는 `ln` 사용
 
-    ![link](C:/daou/01.linux/doc/assets/ln.png)
+    ![link](./03_Directory_File.assets/ln.png)
 
     * 현재 test_hosts 는 같은 i-node 가지고 있으므로 하드 링크
 
@@ -110,7 +110,7 @@
 
       * 삭제해도 존재 된 원본 파일에는 영향 미치지 않는다
 
-        ![링크](C:/daou/01.linux/doc/assets/symboliclink.png)
+        ![링크](./03_Directory_File.assets/symboliclink.png)
 
         * test_hosts.ln2 &rarr; test_hosts 라고 링크가 표시되며, i-node 가 다르다
 
@@ -129,7 +129,7 @@ pwd
 
 ### **디렉터리 구조**
 
-![구조](C:/daou/01.linux/doc/assets/FHP.png)
+![구조](./03_Directory_File.assets/FHP.png)
 
 | 디렉터리 | 설명                                                         |
 | -------- | ------------------------------------------------------------ |
@@ -329,7 +329,7 @@ find 경로 검색조건 [옵션] [동작]
   * `-print` 검색된 파일의 절대 경로명을 화면에 출력 (기본 동작)
   * `-ls` 검색 결과를 긴 목록 형식으로 출력
 
-![경로](C:/daou/01.linux/doc/assets/path.png)
+![경로](./03_Directory_File.assets/path.png)
 
 **find 한 경로 기준으로 절대 경로로 출력 된다**
 

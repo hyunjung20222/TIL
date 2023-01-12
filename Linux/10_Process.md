@@ -121,7 +121,7 @@ ps -f --ppid [프로세스 번호]
 
     * `ps -f` 의 출력 결과
 
-      ![ps-f](./assets/psf.png)
+      ![ps-f](./10_Process.assets/psf.png)
 
       | 항목 | 의미                      | 항목  | 의미                                 |
       | ---- | ------------------------- | ----- | ------------------------------------ |
@@ -134,9 +134,9 @@ ps -f --ppid [프로세스 번호]
 
 * `ps -aux` 출력 결과
 
-  ![auxthing](./assets/auxthing.png)
+  ![auxthing](./10_Process.assets/auxthing.png)
 
-  ![auxthing2](./assets/auxresult.png)
+  ![auxthing2](./10_Process.assets/auxresult.png)
   
   | 항목    | 의미                                                         |
   | ------- | ------------------------------------------------------------ |
@@ -273,7 +273,7 @@ systemctl [옵션] [명령] [유닛 이름]
 systemctl status sshd
 ```
 
-![sshdstatus](./assets/status.png)
+![sshdstatus](./10_Process.assets/status.png)
 
 * **active (running)** 을 확인할 수 있다
 
@@ -282,11 +282,11 @@ systemctl status sshd
 systemctl stop sshd
 ```
 
-![stop](./assets/stop.png)
+![stop](./10_Process.assets/stop.png)
 
 * **inactive (dead)** 확인할 수 있다
   * 실제로 ssh 가 맡은 역할인 서버 접속을 시도해보면 안된다
-  * ![거절](./assets/refused.png)
+  * ![거절](./10_Process.assets/refused.png)
 
 ```bash
 # ssh 서비스 재구동

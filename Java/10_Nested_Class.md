@@ -16,7 +16,7 @@
 
 **클래스 내부에 선언한 클래스를 의미**
 
-![중첩 클래스](./assets/nested_class.png)
+![중첩 클래스](./10_Nested_Class.assets/nested_class.png)
 
 * 중첩 클래스도 하나의 클래스기 때문에 컴파일 시 바이트 코드 파일 `.class` 이 자동 생성
 

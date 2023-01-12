@@ -24,7 +24,7 @@
   * 파일 시스템의 온라인 통신 중 단편화 제거와 용량 확장이 용이
 * **EXT 파일 시스템의 특징**
 
-![파일 시스템](./assets/filesys.png)
+![파일 시스템](./07_File_System.assets/filesys.png)
 
 * CentOS 가 지원하는 파일 시스템 종류
 
@@ -83,7 +83,7 @@
 * 리눅스 시스템은 계층적 디렉터리의 구조를 가지고 있기 때문에 파일 시스템이 디렉터리 계층 구조와 연결되지 않으면 접근할 수 없음 
 * 특정 디렉터리와 USB 메모리, CD-ROM, DVD, HDD, FDD 등과 같은 외부 장치와도 연결하는 것을 `마운트`라고 하며 디렉터리 계층 구조에서 파일 시스템이 연결되는 디렉터리를 **마운트 포인트**라고 함
 
-![마운트](./assets/mnt.png)
+![마운트](./07_File_System.assets/mnt.png)
 
 ### 마운트 설정 파일
 
@@ -101,11 +101,11 @@
     vi /etc/fstab
     ```
 
-    ![파일](./assets/fstabs.png)
+    ![파일](./07_File_System.assets/fstabs.png)
 
   * `/etc/fstab` 파일 구조
 
-![구조](./assets/fstab_struc.png)
+![구조](./07_File_System.assets/fstab_struc.png)
 
 * 설정 옵션
 
@@ -173,11 +173,11 @@ fdisk [옵션] [디스크 드라이브 명]
 
 ## **디스크 생성**
 
-![디스크 생성](./assets/sata.png)
+![디스크 생성](./07_File_System.assets/sata.png)
 
 * SATA 개수에 따라 인식되는 하드 장치 다르다
 
-![디스크](./assets/sata2.png)
+![디스크](./07_File_System.assets/sata2.png)
 
 * 시스템 종료 (완전히 끄기) 후 `설정 -> 저장소` 로 들어가서 컨트롤러에서 하드 디스크 추가
 
@@ -185,7 +185,7 @@ fdisk [옵션] [디스크 드라이브 명]
 fdisk -l
 ```
 
-![디스크 생성](./assets/sdb.png)
+![디스크 생성](./07_File_System.assets/sdb.png)
 
 * 명령어를 입력하면 이처럼 새로운 `/dev/sdb` 장치가 생겨 있다
 
@@ -208,7 +208,7 @@ fdisk /dev/sdb/
 # w 로 만든 것 확인!
 ```
 
-![파티션](./assets/partition.png)
+![파티션](./07_File_System.assets/partition.png)
 
 * 새로 생성된 파티션 확인하고 파일 시스템 만들기
 
@@ -235,7 +235,7 @@ fdisk /dev/sdb/
     vi /etc/fstab
     ```
 
-    ![파일](./assets/fstab_vi.png)
+    ![파일](./07_File_System.assets/fstab_vi.png)
 
   * 위와 같이 고유한 UUID 값 등을 형식에 맞춰서 적어주면 된다
 
@@ -251,7 +251,7 @@ fdisk /dev/sdb/
 
   * `df` 로 확인해보면 `/dev/sdb` 를 확인할 수 있다
 
-    ![dev](./assets/devsdb.png)
+    ![dev](./07_File_System.assets/devsdb.png)
 
 ---
 

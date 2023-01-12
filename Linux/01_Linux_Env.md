@@ -60,7 +60,7 @@
 
 1. 로그인 (localhost) &rarr; 현재 루트 (root) 계정 밖에 없다
 
-   ![root](./assets/root.png)
+   ![root](./01_Linux_Env.assets/root.png)
 
 2. 리눅스 환경 (가상 머신) 매우 불편하기 때문에
    * **SSH (Secure Shell)** 사용
@@ -79,7 +79,7 @@
 
 2. Virtual Box 에서 `ip addr` 로 주소 확인
 
-   ![아이피](./assets/ip_addr.png)
+   ![아이피](./01_Linux_Env.assets/ip_addr.png)
 
    * host 에서 guest 주소 입력
    * guest 주소 : 2 번에서 inet 주소
@@ -109,7 +109,7 @@
 
    * 설정해 둔 비밀번호 입력
 
-     ![연결](./assets/connection.png)
+     ![연결](./01_Linux_Env.assets/connection.png)
 
 ---
 

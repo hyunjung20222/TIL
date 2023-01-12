@@ -19,7 +19,7 @@
 
 * **명령 모드, 입력 모드, 라인 모드**로 구분돼 모드를 전환하면서 사용
 
-  ![vi](./assets/vi.png)
+  ![vi](./04_Editor.assets/vi.png)
 
 * **명령 모드**
 
@@ -57,7 +57,7 @@
   # vi test
   ```
 
-  ![vicat](./assets/catvi.png)
+  ![vicat](./04_Editor.assets/catvi.png)
 
   
 

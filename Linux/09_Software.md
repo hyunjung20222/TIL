@@ -41,7 +41,7 @@ rpm
   * `--version` 사용 중인 RPM 버전 출력
   * `-q` 현재 시스템에 설치돼 있는 RPM 패키지 조회
 
-![알피엠](./assets/rpm.png)
+![알피엠](./09_Software.assets/rpm.png)
 
 ---
 
@@ -274,7 +274,7 @@ zip [파일 이름]
 vi /etc/crontab
 ```
 
-![cron](./assets/cron.png)
+![cron](./09_Software.assets/cron.png)
 
 * `day of week` 이 **0 부터 시작**하는 것 주의
 
@@ -284,7 +284,7 @@ vi /etc/crontab
 
   * 예시
 
-    ![일정](./assets/cronday.png)
+    ![일정](./09_Software.assets/cronday.png)
 
 
 

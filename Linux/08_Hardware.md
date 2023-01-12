@@ -91,7 +91,7 @@ mkfs.[파일 시스템] [하드디스크 명]
 
 * **논리 볼륨 (LG)** VG 를 1 개 이상으로 적절한 크기로 나눈 파티션
 
-  ![lvm](./assets/lvm.png)
+  ![lvm](./08_Hardware.assets/lvm.png)
 
 ---
 
@@ -142,7 +142,7 @@ mkfs.[파일 시스템] [하드디스크 명]
   dumpe2fs /dev/sdb | grep superblock
   ```
 
-  ![슈퍼 블록](./assets/superblock.png)
+  ![슈퍼 블록](./08_Hardware.assets/superblock.png)
 
 **현재 복구하려는 것은 파일 시스템!! 파일이 아니다**
 

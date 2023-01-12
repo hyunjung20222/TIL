@@ -46,7 +46,7 @@ su - root
   root:x:0:0:root:/root:/bin/bash
   ```
 
-  ![유저](./assets/user.png)
+  ![유저](./06_Administrator.assets/user.png)
 
   * 여기서 그룹은 필수적인 값 (리눅스 시스템의 모든 사용자는 무조건 하나 이상의 그룹에 속해 있어야 한다)
     * GID 를 지정하지 않으면 자동으로 로그인 ID 가 그룹으로 등록된다

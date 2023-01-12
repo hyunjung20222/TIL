@@ -14,7 +14,7 @@
 
 ## 파일 속성
 
-![정보](./assets/fileinfo.png)
+![정보](./05_File_Authorization.assets/fileinfo.png)
 
 | 번호 | 속성 값       | 의미                                                         |
 | ---- | ------------- | ------------------------------------------------------------ |
@@ -57,7 +57,7 @@
 
 * 나열 (`,`) 과 조합 가능
 
-![chmod](./assets/chmod.png)
+![chmod](./05_File_Authorization.assets/chmod.png)
 
 * 예시
 
@@ -82,7 +82,7 @@
 
 ### 숫자를 이용한 접근 권한
 
-![숫자](./assets/chmod_num2.png)
+![숫자](./05_File_Authorization.assets/chmod_num2.png)
 
 * 세 자리 숫자로 표현하는 것
   * 문자의 조합이 많기 때문에 다소 간편한 숫자로 표현하는 것
@@ -91,7 +91,7 @@
 
 **계산법**
 
-![숫자](./assets/chmod_num1.png)
+![숫자](./05_File_Authorization.assets/chmod_num1.png)
 
 * 권한이 있으면 1, 없으면 0
 
@@ -99,7 +99,7 @@
 
   * 예시
 
-    ![예시](./assets/chmod_num3.png)
+    ![예시](./05_File_Authorization.assets/chmod_num3.png)
 
 
 

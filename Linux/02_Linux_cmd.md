@@ -210,7 +210,7 @@ which 명령어
 whereis ls
 ```
 
-![whereis](C:/daou/01.linux/doc/assets/whereis.png)
+![whereis](./02_Linux_cmd.assets/whereis.png)
 
 * `which` 는 경로에 대한 것도 알려 주지만 `alias` 도 같이 출력
 

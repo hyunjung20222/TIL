@@ -19,3 +19,5 @@
 **소프트웨어 관리** [09_Software](https://github.com/hyunjung20222/TIL/blob/main/Linux/09_Software.md)
 
 **프로세스 관리** [10_Process](https://github.com/hyunjung20222/TIL/blob/main/Linux/10_Process.md)
+
+**셸 스크립트** [11_Shell_Script](https://github.com/hyunjung20222/TIL/blob/main/Linux/11_Shell_Script.md)

@@ -2,11 +2,11 @@
 
 ## Computer
 
-[**Computer_Intro**](https://github.com/hyunjung20222/TIL/tree/main/CS/Computing Systems/Computer_Intro)
+[**Computer_Intro**](https://github.com/hyunjung20222/TIL/tree/main/CS/Computing%20Systems/Computer_Intro)
 
 * **초연결 사회를 위한 컴퓨터 개론** 조성호, 한빛아카데미
 
-**[TEO_Computing_Systems](https://github.com/hyunjung20222/TIL/tree/main/CS/Computing Systems/TEO_Computing_Systems)**
+**[TEO_Computing_Systems](https://github.com/hyunjung20222/TIL/tree/main/CS/Computing%20Systems/TEO_Computing_Systems)**
 
 * **밑바닥부터 만드는 컴퓨팅 시스템** 노암 니산, 인사이트
 

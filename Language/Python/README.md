@@ -12,5 +12,7 @@
 
 **모듈과 파일** [03_Module](https://github.com/hyunjung20222/TIL/blob/main/Language/Python/03_Module.md)
 
+**예외와 예외 처리** [04_Exception](https://github.com/hyunjung20222/TIL/blob/main/Language/Python/04_Exception.md)
+
 **연습 문제** [00_Practice](https://github.com/hyunjung20222/TIL/blob/main/Language/Python/00_Practice.md) 
 

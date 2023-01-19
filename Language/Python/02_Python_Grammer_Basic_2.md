@@ -43,7 +43,7 @@
   집합 변수명 = set( 반복 가능한 객체	)
   집합 변수명 = { 데이터 1, 데이터 2, ...}
   # iterable 한 객체로, 내부의 데이터를 하나씩 꺼내 올 수 있고 반복 시 종료할 수 있는 내부 반환값을 제공하는 객체
-  # list, dick, set, str, bytes, tuple, range
+  # list, dict, set, str, bytes, tuple, range
   ```
 
   * 예시

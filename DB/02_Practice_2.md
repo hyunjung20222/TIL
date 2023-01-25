@@ -1,7 +1,14 @@
 **목차**
 
-1. [테이블](#테이블)
-2. [데이터](#데이터)
+1. [DDL (Data Definition Language)](#ddl-(data-definition-language))
+
+   * [테이블](#테이블)
+
+   * [데이터](#데이터)
+
+2. [DML (Data Manipulation Language)](#dml-(data-manipulation-language))
+
+---
 
 ## DDL (Data Definition Language)
 
@@ -105,4 +112,100 @@ DROP COLUMN phone;
   ```
 
 * 데이터가 존재할 때는 **더 큰 사이즈의 컬럼**으로만 변경 가능하다
+
+---
+
+## DML (Data Manipulation Language)
+
+**데이터 조작 언어로 이미 존재하는 table 에 데이터 저장, 수정, 삭제, 검색 등 수행하는 것**
+
+**commit** 
+
+* 영구 저장
+
+**rollback**
+
+* 복원 문장 필수
+
+**Insert**
+
+* 테이블에 삽입 
+
+  ```sql
+  # column 기술하지 않고 삽입
+  INSERT INTO people VALUES('hj', 30);
+  
+  # column 기술하고 삽입
+  INSERT INTO people(age, name) VALUES(30, 'hj');
+  # 컬럼 순서 상관없이 지정한 대로 삽입하면 되지만, 일반적으로 순서를 지키도록 함
+  ```
+
+* 다중 table 에 데이터 insert 도 가능하지만, oracle 에서 사용하는 문법
+
+  * MySQL 에서는 여러 번 같은 동작을 하면 된다
+
+  * 너무 많은 경우 `,` 으로 한 번에 여러 개 데이터 넣을 수 있다
+
+    ```sql
+    # Bulk Insert
+    INSERT INTO people VALUES('hj', 30), ('hi', 20), ('hu', 10);
+    ```
+
+
+
+**update**
+
+* 테이블의 모든 행 변경
+
+  ```sql
+  UPDATE emp01
+  SET deptno = 30;
+  ```
+
+  * 하지만 여기서 deptno 는 고유한 값이 아니기 때문에 변경안됨
+
+    * 변경하려면 설정을 바꿔야 한다
+
+  * 변경 후 rollback 
+
+    ```sql
+    ROLLBACK
+    # 하지만 적용 안됨.. 이미 commit 돼서 영구 저장 돼버림
+    ```
+
+    * ***auto commit 주의***
+
+      ```sql
+      # 1 로 설정돼있는 것을 0 으로 바꿔줘야 비활성화
+      SELECT @@autocommit;
+      ```
+
+* 참고
+
+  ```sql
+  # 서브 쿼리로 보다 편리하게 다중 테이블 사용 가능
+  UPDATE emp01
+  SET sal = sal + 1000
+  WHERE deptno = (
+  				SELECT deptno
+  				FROM dept
+  				WHERE loc = 'DALLAS');
+  ```
+
+
+
+**Delete**
+
+```sql
+DELETE FROM emp01;
+# TRUNCATE 와 비슷하나 Delete 는 DML 이기 때문에 rollback 으로 데이터를 복구할 수 있다
+# TRUNCATE 는 DDL 이기 때문에 복구 불가능
+```
+
+* 특정 row 만 삭제
+
+  ```sql
+  DELETE FROM emp01
+  WHERE deptno = 10;
+  ```
 

@@ -2,11 +2,21 @@
 
 ### 매일 공부한 내용 정리
 
-* CS
-  * OS
-  * Computer
-  * Network
 * Algorithm
-* Java
+
+* CS
+
+  * Computing Systems
+  * Network
+  * OS
+
+* Language
+
+  * C
+  * Java
+  * Kotlin
+  * Typescript
+
 * Spring
-* Typescript
+
+* Linux
